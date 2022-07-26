@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    /* width: 460px; */
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.wrapper form{
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border : 2px dashed #B8B8BD;
+}
+form :where(i, p) {
+    color: #6990f2;
+    cursor: pointer;
+}
+form i{
+font-size: 36px;
+}
+form p{
+font-size: 18px;
+color: #0D39FC;
+margin-top: 10px;
+}
+.card-header{
+    background-color: #FEFEFF;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+section .row {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: #062EB0EF;
+    color: #fff;
+    list-style: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .row i{
+    color: #1AD5FF;
+    font-size: 30px;
+    margin-right: 10px;
+}
+section .row .content{
+    width: 100%;
+    margin-right: 10px;
+}
+section .detail span{
+    /* color: #FFFFFF; */
+    font-size: 14px;
+}
+.progress-area .row .content{
+    width: 100%;
+    margin-left: 5px;
+}
+.progress-area .detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+.progress-area .progress-bar{
+    height: 12px;
+    width: 100%;
+    background-color: #375DF8;
+    border-radius: 30px;
+    margin-bottom: 6px;
+}
+.progress-bar .progress{
+    height: 100%;
+    width: 0%;
+    background-color: #B7F208;
+    border-radius: inherit;
+}
+.uploaded-area2 .row .content{
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.progress-area2{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.uploaded-area .row .detail{
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+.uploaded-area .row .detail .size{
+    font-size: 14px;
+    color: #0D39FC;
+}
+
+.uploaded-area .fa-check{
+    font-size: 20px;
+    align-self: flex-end;
+}
